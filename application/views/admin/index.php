@@ -125,7 +125,7 @@
 
 											<div class="profile-user-info profile-user-info-striped">
 												<div class="profile-info-row">
-													<div class="profile-info-name"> Username </div>
+													<div class="profile-info-name"> Name </div>
 
 													<div class="profile-info-value">
 														<span class="editable" id="username">alexdoe</span>
@@ -133,7 +133,7 @@
 												</div>
 
 												<div class="profile-info-row">
-													<div class="profile-info-name"> Location </div>
+													<div class="profile-info-name"> Address </div>
 
 													<div class="profile-info-value">
 														<i class="fa fa-map-marker light-orange bigger-110"></i>

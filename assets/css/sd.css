@@ -1,0 +1,226 @@
+
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://www.w3schools.com/w3css/4/w3.css);
+.w3-tangerine {
+	
+	font-size:60px;
+	font-family: "Tangerine", serif;
+	
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+.glow {
+        -webkit-animation-duration: 1s;
+        -webkit-animation-name: glow;
+        -webkit-animation-direction: alternate;
+        -webkit-animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-name: glow;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    
+    }
+    
+    @-webkit-keyframes glow {
+        from { text-shadow: 0 0 0px red; }
+        to { text-shadow: 0 0 20px red; }
+    }
+
+
+.glow1 {
+    
+    border-radius: 80%;
+    box-shadow:
+        inset 0 0 50px #fff,      /* inner white */
+        inset 20px 0 80px #f0f,   /* inner left magenta short */
+        inset -20px 0 80px #0ff,  /* inner right cyan short */
+        inset 20px 0 300px #f0f,  /* inner left magenta broad */
+        inset -20px 0 300px #0ff, /* inner right cyan broad */
+        0 0 50px #fff,            /* outer white */
+        -10px 0 80px #f0f,        /* outer left magenta */
+        10px 0 80px #0ff;         /* outer right cyan */
+}
+
+.logo
+{ 
+    size:fixed;
+	height:140px;
+	width:140px;
+	margin-top:25px;
+	
+	filter: brightness(200%);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.centered {
+		height:680px;
+		width:680px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body{
+	background:#2c3e50;
+}
+
+/*=== Trigger  ===*/
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+  
+/*=== Optional Delays, change values here  ===*/
+.one {
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay: 0.5s;
+animation-delay: 0.5s;
+}
+
+.two {
+-webkit-animation-delay: 1.5s;
+-moz-animation-delay: 1.5s;
+animation-delay: 1.5s;
+}
+
+.three {
+-webkit-animation-delay: 2.5s;
+-moz-animation-delay: 2.5s;
+animation-delay: 2.5s;
+}
+
+.four {
+-webkit-animation-delay: 3.5s;
+-moz-animation-delay: 3.5s;
+animation-delay: 3.5s;
+}
+
+.five {
+-webkit-animation-delay: 4.5s;
+-moz-animation-delay: 4.5s;
+animation-delay: 4.5s;
+}
+
+/*=== FADE IN DOWN ===*/
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+ }
+@-webkit-keyframes fadeInDown {
+0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0);
+}
+100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+}
+}
+@keyframes fadeInDown {
+0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -100%, 0);
+	transform: translate3d(0, -100%, 0);
+}
+100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+}
+} 
+
+
+
+/*=== FADE IN  ===*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+
+
+/*=== FADE IN DOWN Big ===*/
+.fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+@-webkit-keyframes fadeInDownBig {
+0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -2000px, 0);
+	transform: translate3d(0, -2000px, 0);
+}
+100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+}
+}
+@keyframes fadeInDownBig {
+0% {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -2000px, 0);
+	transform: translate3d(0, -2000px, 0);
+}
+100% {
+	opacity: 1;
+	-webkit-transform: none;
+	transform: none;
+}
+} 

@@ -21,7 +21,16 @@
 		<!--[if lte IE 9]>
 			<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/ace-part2.min.css" />
 		<![endif]-->
+		
 		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/ace-rtl.min.css" />
+		
+		
+		  <link rel="stylesheet" href="<?php echo base_url(); ?>https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="<?php echo base_url().'assets/'; ?>https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>https://fonts.googleapis.com/css?family=Tangerine">
+  
+		<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/sd.css" />
+		
 
 		<!--[if lte IE 9]>
 		  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/ace-ie.min.css" />
@@ -35,182 +44,38 @@
 		<![endif]-->
 		
 		<!--<link rel="stylesheet" href="<?php echo base_url(); ?>application/views/bg.css" />-->
-		<style>
-			
-	.centered {
-		height:750px;
-		width:750px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-}
-
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-body{
-	background:#2c3e50;
-}
-
-/*=== Trigger  ===*/
-.animate {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-  
-/*=== Optional Delays, change values here  ===*/
-.one {
--webkit-animation-delay: 0.5s;
--moz-animation-delay: 0.5s;
-animation-delay: 0.5s;
-}
-
-.two {
--webkit-animation-delay: 1.5s;
--moz-animation-delay: 1.5s;
-animation-delay: 1.5s;
-}
-
-.three {
--webkit-animation-delay: 2.5s;
--moz-animation-delay: 2.5s;
-animation-delay: 2.5s;
-}
-
-.four {
--webkit-animation-delay: 3.5s;
--moz-animation-delay: 3.5s;
-animation-delay: 3.5s;
-}
-
-.five {
--webkit-animation-delay: 4.5s;
--moz-animation-delay: 4.5s;
-animation-delay: 4.5s;
-}
-
-/*=== FADE IN DOWN ===*/
-.fadeInDown {
-  -webkit-animation-name: fadeInDown;
-  animation-name: fadeInDown;
- }
-@-webkit-keyframes fadeInDown {
-0% {
-	opacity: 0;
-	-webkit-transform: translate3d(0, -100%, 0);
-	transform: translate3d(0, -100%, 0);
-}
-100% {
-	opacity: 1;
-	-webkit-transform: none;
-	transform: none;
-}
-}
-@keyframes fadeInDown {
-0% {
-	opacity: 0;
-	-webkit-transform: translate3d(0, -100%, 0);
-	transform: translate3d(0, -100%, 0);
-}
-100% {
-	opacity: 1;
-	-webkit-transform: none;
-	transform: none;
-}
-} 
-
-
-
-/*=== FADE IN  ===*/
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-.fadeIn {
-    -webkit-animation-name: fadeIn;
-	animation-name: fadeIn;
-}
-
-
-
-/*=== FADE IN DOWN Big ===*/
-.fadeInDownBig {
-  -webkit-animation-name: fadeInDownBig;
-  animation-name: fadeInDownBig;
-}
-@-webkit-keyframes fadeInDownBig {
-0% {
-	opacity: 0;
-	-webkit-transform: translate3d(0, -2000px, 0);
-	transform: translate3d(0, -2000px, 0);
-}
-100% {
-	opacity: 1;
-	-webkit-transform: none;
-	transform: none;
-}
-}
-@keyframes fadeInDownBig {
-0% {
-	opacity: 0;
-	-webkit-transform: translate3d(0, -2000px, 0);
-	transform: translate3d(0, -2000px, 0);
-}
-100% {
-	opacity: 1;
-	-webkit-transform: none;
-	transform: none;
-}
-} 
-
-
-	</style>
 		
 		
-	</head>
+</head>
 
-	<body class="login-layout blur-login">
+	<body class="login-layout blur-login ">
 	
-	<img class="centered" src="<?php echo base_url();?>assets/images/kplogo.png" style="filter: blur(5px);"/>
+	<!--class="animate fadeInDown one"<img class="logo" src="<?php echo base_url();?>assets/images/kplogo.png" />-->
 	
 		
 		<div class="main-container">
 			<div class="main-content">
-				<div class="row" style="margin-top:50px;">
+				<div class="row" >
 					<div class="col-sm-10 col-sm-offset-1">
 						<div class="login-container">
-						<div class="animate fadeInDown one">
-  
+						<div>  
 							<div class="center">
-								<h1>
-									<!--<img src="<?php echo base_url();?>assets/images/kplogo.png" width="50;" style="background:white;"/>-->
-									<span class="red" style="font-size:50px;"><b>Scientific Wing</b></span>
-									<span class="white" id="id-text2 white">D.D.</span>
+							<img class="logo" src="<?php echo base_url();?>assets/images/kplogo.png" />
+								
+								<h1>									
+									<span style="font-size:20px;">&copy;</span><span class="w3-tangerine tracking-in-expand glow">Scientific Wing</span>&nbsp
+									
+									<!--<i class="fa fa-search" aria-hidden="true"></i>-->
+									
+									<span id="id-text2 white" style="text-shadow: 1px 1px #37474F; font-family:Times-Header;"><b>D.D.</b></span>
 								</h1>
-								<h4 class="white" id="id-company-text light-blue"><b>&copy; Kolkata Police</b></h4>
+								<!--<h4 class="white" id="id-company-text light-blue"><b>&copy; Kolkata Police </b></h4>-->
 							</div>
-</div>
+						</div>
 							<div class="space-6"></div>
  
-					<div class="animate fadeIn two">
-							<div class="position-relative" style="margin-top:20px;">
+					<div class="animate fadeIn one">
+							<div class="position-relative" >
 							
 								<div id="login-box" class="login-box visible widget-box no-border">
 									<div class="widget-body">
@@ -241,10 +106,10 @@ animation-delay: 4.5s;
 													<div class="space"></div>
 
 													<div class="clearfix">
-														<label class="inline">
+														<!--<label class="inline">
 															<input type="checkbox" class="ace" />
 															<span class="lbl"> Remember Me</span>
-														</label>
+														</label>-->
 
 														<button type="submit" class="width-35 pull-right btn btn-sm btn-primary">
 															<i class="ace-icon fa fa-key"></i>
